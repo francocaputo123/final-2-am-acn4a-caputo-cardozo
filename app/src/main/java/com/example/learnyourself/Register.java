@@ -11,6 +11,10 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
     }
 
+    /*public boolean addUser(){
+
+        return false
+    }*/
     public void preView()
     {
         finish();
