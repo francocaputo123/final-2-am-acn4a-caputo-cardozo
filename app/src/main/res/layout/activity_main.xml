@@ -72,8 +72,9 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_weight="1.2"
-            android:text="Ingresar"
-            android:backgroundTint="@color/btnColor"/>
+            android:backgroundTint="@color/btnColor"
+            android:onClick="login"
+            android:text="Ingresar" />
 
         <Button
             android:id="@+id/register"
@@ -81,10 +82,9 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_weight="1"
-            android:onClick="register"
-            android:text="Registrarse"
             android:backgroundTint="@color/btnColor"
-            />
+            android:onClick="registerAc"
+            android:text="Registrarse" />
     </LinearLayout>
 
     <LinearLayout
