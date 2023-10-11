@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -23,31 +24,46 @@ public class Register extends AppCompatActivity {
         up = findViewById(R.id.passwordText);
     }
 
-    public void regis(){
+    public void regis(View v){
+        //capturo los datos de todos los EditText
         String userRegister = unt.getText().toString();
         String nameText = nt.getText().toString();
         String lastNameText = lnt.getText().toString();
         String userNameText = unt.getText().toString();
         String passwordText = up.getText().toString();
 
-        try
-        {
-            OutputStreamWriter user = new OutputStreamWriter(openFileOutput(userRegister, Context.MODE_PRIVATE));
-            user.write(nameText);
-            user.write(lastNameText);
-            user.write(userNameText);
-            user.write(passwordText);
-            user.flush();
-            nt.setText("");
-            lnt.setText("");
-            unt.setText("");
-            up.setText("");
-            Toast.makeText(this,"Usuario registrado con éxito, vuelva a la pantalla inicial e ingrese con su usuario", Toast.LENGTH_SHORT);
-        } catch(IOException e){
-            Toast.makeText(this, "No se pudo crear el usuario, intentelo denuevo", Toast.LENGTH_SHORT);
+        //verifico si todos los campos estan vacios
+        if(nameText.isEmpty() || lastNameText.isEmpty() || userNameText.isEmpty() || passwordText.isEmpty()){
+            Toast.makeText(this, "Algunos de los campos estan vacios", Toast.LENGTH_SHORT).show();
+        } else {
+            try
+            {
+                //verificacion de si existe el archivo que se intenta cear, pasando el usuario como referencia
+                if(getFileStreamPath(userRegister).exists()){
+                    Toast.makeText(this, "Usuario en uso, ingrese otro usuario",Toast.LENGTH_SHORT).show();
+                } else {
+                    //creacion del archivo y cada uno de los campos provenientes de los edit
+                    OutputStreamWriter user = new OutputStreamWriter(openFileOutput(userRegister, Context.MODE_PRIVATE));
+                    user.write(nameText + "\n");
+                    user.write(lastNameText + "\n");
+                    user.write(userNameText + "\n");
+                    user.write(passwordText + "\n");
+                    user.flush();
+                    nt.setText("");
+                    lnt.setText("");
+                    unt.setText("");
+                    up.setText("");
+                    Toast.makeText(this,"Usuario registrado con éxito, vuelva a la pantalla inicial e ingrese con su usuario", Toast.LENGTH_SHORT).show();
+
+                }
+            } catch(IOException e){
+                Toast.makeText(this, "Error desconocido, intentelo nuevamente", Toast.LENGTH_SHORT).show();
+            }
         }
+
     }
-    public void preView()
+    //metodo para volver a la anterior activity
+    public void preView(View v)
     {
         finish();
     }
