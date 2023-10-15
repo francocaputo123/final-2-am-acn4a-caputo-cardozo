@@ -31,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    //Método para boton de recuperar contraseña
+    public void recoveryPass(){
+        Intent i = new Intent(this, Recovery.class);
+        startActivity(i);
+    }
+
     //metodo para loguearse
     public void login(View v){
         String userN = userText.getText().toString();
