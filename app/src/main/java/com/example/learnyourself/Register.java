@@ -57,7 +57,7 @@ public class Register extends AppCompatActivity {
 
                 }
             } catch(IOException e){
-                Toast.makeText(this, "Error desconocido, intentelo nuevamente", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Error desconocido, inténtelo nuevamente", Toast.LENGTH_SHORT).show();
             }
         }
 

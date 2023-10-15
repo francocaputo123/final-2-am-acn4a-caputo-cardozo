@@ -16,14 +16,12 @@
         android:orientation="horizontal"
         android:padding="20dp" />
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="LearnYourself"
-        android:textAlignment="center"
-        android:textSize="40sp"/>
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginVertical="10dp"/>
 
     <TextView
         android:id="@+id/userText"
@@ -101,9 +99,10 @@
         android:layout_marginTop="15dp">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/btnRecovery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="recoveryPass"
             android:text="@string/l_recoveryPass"
             android:textAlignment="center" />
     </LinearLayout>
@@ -115,12 +114,12 @@
         android:gravity="bottom">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/txtR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Todos los derechos reservados."
-            android:textSize="16sp"
-            android:textAlignment="center"/>
+            android:text="@string/reserved"
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
