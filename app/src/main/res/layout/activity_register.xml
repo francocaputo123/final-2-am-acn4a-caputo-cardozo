@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Register">
+    tools:context=".Register"
+    android:background="@color/background">
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -37,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="20dp"
-            android:text="Vamos a crear tu cuenta"
+            android:text="@string/r_title"
             android:textSize="30sp" />
 
         <TextView
@@ -45,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="Es el momento de crear tu cuenta para obtener tu plan de aprendizaje y guardar tu progreso"
+            android:text="@string/r_legend"
             android:textSize="15sp" />
     </LinearLayout>
 
@@ -105,10 +106,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@drawable/rectangular_button_background"
             android:backgroundTint="@color/btnColor"
             android:onClick="regis"
-            android:text="Registrarse" />
+            android:text="@string/register"
+            android:textColor="@color/txtColor"
+            android:background="@drawable/rectangular_button_background"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LearnYourself</string>
+    <string name="register">Registrarse</string>
+    <string name="r_title">Vamos a crear tu cuenta</string>
+    <string name="login">Ingresar</string>
+    <string name="l_txtl">Ingrese su usuario:</string>
+    <string name="l_txtpass">Ingrese su contraseña:</string>
+    <string name="l_recoveryPass">¿Has olvidado tu contraseña?</string>
+    <string name="r_legend">    Es el momento de crear tu cuenta para obtener tu plan de aprendizaje y guardar tu progreso</string>
 </resources>
