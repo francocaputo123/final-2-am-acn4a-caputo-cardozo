@@ -23,6 +23,7 @@ public class Recovery extends AppCompatActivity {
         editUser = findViewById(R.id.editUser);
         editPass = findViewById(R.id.editPass);
     }
+    //metodo volver hacai atras
     public void preView2(View v){ finish(); }
 
     //Método de recuperación de contraseña
