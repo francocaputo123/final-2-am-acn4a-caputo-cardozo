@@ -7,5 +7,7 @@
     <string name="l_txtpass">Ingrese su contraseña:</string>
     <string name="l_recoveryPass">¿Has olvidado tu contraseña?</string>
     <string name="re_title">Recuperemos tu contraseña</string>
+    <string name="reserved">Todos los derechos reservados</string>
+    <string name="re_btn">Recuperar contraseña</string>
     <string name="r_legend">    Es el momento de crear tu cuenta para obtener tu plan de aprendizaje y guardar tu progreso</string>
 </resources>

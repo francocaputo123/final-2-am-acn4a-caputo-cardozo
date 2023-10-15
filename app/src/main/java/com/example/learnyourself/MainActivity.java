@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Método para boton de recuperar contraseña
-    public void recoveryPass(){
+    public void recoveryPass(View v){
         Intent i = new Intent(this, Recovery.class);
         startActivity(i);
     }

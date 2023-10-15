@@ -117,9 +117,9 @@
             android:id="@+id/txtR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Todos los derechos reservados."
-            android:textSize="16sp"
-            android:textAlignment="center"/>
+            android:text="@string/reserved"
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"

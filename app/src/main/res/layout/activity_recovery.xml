@@ -25,19 +25,58 @@
         android:textAlignment="center"
         android:textSize="24sp" />
 
-    <EditText
-        android:id="@+id/editTextText"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Name" />
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
+        <EditText
+            android:id="@+id/editUser"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Nombre de usuario"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"/>
+
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Nueva contraseña"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:id="@+id/changePass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/re_btn"
+            android:background="@drawable/rectangular_button_background"
+            android:layout_gravity="center"
+            android:textColor="@color/txtColor"
+            android:onClick="recovery"/>
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reserved"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
 
 </LinearLayout>
