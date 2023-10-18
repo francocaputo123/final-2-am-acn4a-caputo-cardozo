@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".activity_cursos">
 
     <LinearLayout
@@ -50,8 +51,9 @@
                         android:id="@+id/imageView15"
                         android:layout_width="110dp"
                         android:layout_height="110dp"
-                        android:layout_weight="1"
                         android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:background="@color/txtColor"
                         app:srcCompat="@drawable/piton" />
 
                     <Button
@@ -85,8 +87,9 @@
                         android:id="@+id/imageView16"
                         android:layout_width="110dp"
                         android:layout_height="110dp"
-                        android:layout_weight="1"
                         android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:background="@color/txtColor"
                         app:srcCompat="@drawable/java" />
 
                     <Button
@@ -120,8 +123,8 @@
                         android:id="@+id/imageView17"
                         android:layout_width="110dp"
                         android:layout_height="110dp"
-                        android:layout_weight="1"
                         android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/javascript" />
 
                     <Button
@@ -155,8 +158,9 @@
                         android:id="@+id/imageView19"
                         android:layout_width="110dp"
                         android:layout_height="110dp"
-                        android:layout_weight="1"
                         android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:background="@color/txtColor"
                         app:srcCompat="@drawable/php" />
 
                     <Button
@@ -190,8 +194,9 @@
                         android:id="@+id/imageView20"
                         android:layout_width="110dp"
                         android:layout_height="110dp"
-                        android:layout_weight="1"
                         android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:background="@color/txtColor"
                         app:srcCompat="@drawable/html" />
 
                     <Button
@@ -225,8 +230,9 @@
                         android:id="@+id/imageView22"
                         android:layout_width="110dp"
                         android:layout_height="110dp"
-                        android:layout_weight="1"
                         android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:background="@color/txtColor"
                         app:srcCompat="@drawable/mysql" />
 
                     <Button
