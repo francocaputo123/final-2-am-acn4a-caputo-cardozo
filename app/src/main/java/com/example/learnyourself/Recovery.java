@@ -51,6 +51,8 @@ public class Recovery extends AppCompatActivity {
                     //sobreescribo todos los archivos nuevos, mas la contraseña.
                     ou.write(content[i] + "\n");
                 }
+                editUser.setText("");
+                editPass.setText("");
                 br.close();
                 ou.close();
                 Toast.makeText(this,"Contraseña actualizada con éxito",Toast.LENGTH_SHORT).show();
