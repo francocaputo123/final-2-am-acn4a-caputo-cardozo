@@ -25,4 +25,11 @@
     <string name="mysql">Mysql</string>
     <string name="php">Php</string>
     <string name="piton">Python</string>
+    <string name="p_title">Bienvenido a tu perfil</string>
+    <string name="p_name">Cambia tu nombre.</string>
+    <string name="p_lastName">Cambia tu apellido.</string>
+    <string name="p_password">Cambia tu contraseña.</string>
+    <string name="p_courses">Tus cursos</string>
+    <string name="disponible">Aun no te has inscripto a ningun curso.</string>
+    <string name="p_change">"Cambiar "</string>
 </resources>
