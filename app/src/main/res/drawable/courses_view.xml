@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Borde del botón -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" /> <!-- Color del borde negro -->
+            <corners android:radius="40dp" /> <!-- Radio para redondear las esquinas en dp -->
+        </shape>
+    </item>
+    <!-- Fondo del botón -->
+    <item android:left="1dp" android:right="1dp" android:top="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bgColor" /> <!-- Color del fondo del botón -->
+            <corners android:radius="40dp" /> <!-- Radio para redondear las esquinas en dp (mismo valor que el borde) -->
+        </shape>
+    </item>
+</layer-list>

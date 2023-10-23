@@ -14,6 +14,7 @@ import android.widget.Toast;
 public class Course extends AppCompatActivity {
 
     private TextView title;
+    private String name;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +22,7 @@ public class Course extends AppCompatActivity {
 
         title = findViewById(R.id.c_title);
 
-        String name = getIntent().getStringExtra("name");
-        title.setText("Hola " + name);
+       name = getIntent().getStringExtra("name");
     }
 
     //metodo para la seleccion de cursos
@@ -65,6 +65,7 @@ public class Course extends AppCompatActivity {
 
     public void profile(View v){
         Intent in = new Intent(this, Profile.class);
+        in.putExtra("name", name);
         startActivity(in);
     }
 }
