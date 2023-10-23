@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:text="@string/re_title"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -65,18 +66,24 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="bottom">
+        android:layout_height="280dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView2"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reserved"
-            android:textSize="16sp"
-            android:textAlignment="center"
-            />
+            tools:srcCompat="@drawable/change_password" />
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reserved"
+        android:textAlignment="center"
+        android:textSize="16sp" />
 
 </LinearLayout>

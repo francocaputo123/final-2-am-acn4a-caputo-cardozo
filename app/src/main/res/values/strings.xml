@@ -20,4 +20,9 @@
     <string name="MySQL">MySQL</string>
     <string name="TextDown">Domina la programacion profesional con nuestra gran variedad de cursos. </string>
     <string name="buttonBack">Volver</string>
+    <string name="javascript">JavaScript</string>
+    <string name="java">Java</string>
+    <string name="mysql">Mysql</string>
+    <string name="php">Php</string>
+    <string name="piton">Python</string>
 </resources>

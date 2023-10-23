@@ -13,7 +13,13 @@
         android:theme="@style/Theme.LearnYourself"
         tools:targetApi="31">
         <activity
-            android:name=".activity_cursos"
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".LearnRoute"
+            android:exported="false" />
+        <activity
+            android:name=".Course"
             android:exported="false" />
         <activity
             android:name=".Recovery"
