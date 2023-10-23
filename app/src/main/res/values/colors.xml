@@ -4,6 +4,6 @@
     <color name="txtColor">#FFFFFFFF</color>
     <color name="bgColor">#34bbe9</color>
     <color name="btnColor">#1515D6</color>
-    <color name="background">#ceffff</color>
+    <color name="background">#bfe8f8</color>
     <color name="transparent">#00FFFFFF</color>
 </resources>

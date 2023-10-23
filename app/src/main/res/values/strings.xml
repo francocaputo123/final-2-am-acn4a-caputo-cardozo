@@ -10,4 +10,19 @@
     <string name="reserved">Todos los derechos reservados</string>
     <string name="re_btn">Recuperar contraseña</string>
     <string name="r_legend">    Es el momento de crear tu cuenta para obtener tu plan de aprendizaje y guardar tu progreso</string>
+    <string name="courses_title">Todos nuestros cursos disponibles al alcance de tu mano.</string>
+    <string name="Phyton">Phyton</string>
+    <string name="textButton">Ir al Curso</string>
+    <string name="Java">Java</string>
+    <string name="Javascript">Javascript</string>
+    <string name="PHP">PHP</string>
+    <string name="HTML">HTML</string>
+    <string name="MySQL">MySQL</string>
+    <string name="TextDown">Domina la programacion profesional con nuestra gran variedad de cursos. </string>
+    <string name="buttonBack">Volver</string>
+    <string name="javascript">JavaScript</string>
+    <string name="java">Java</string>
+    <string name="mysql">Mysql</string>
+    <string name="php">Php</string>
+    <string name="piton">Python</string>
 </resources>
