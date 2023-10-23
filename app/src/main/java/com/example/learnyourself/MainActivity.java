@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             if (userText.getText().toString().equals(edit1) && userPassword.getText().toString().equals(edit2)) {
                 // Acceso permitido, inicia la actividad
                 Intent in = new Intent(this, Course.class);
-                in.putExtra("name", content[0]);
+                in.putExtra("name", content[2]);
                 startActivity(in);
             } else {
                 // Usuario o contraseña incorrectos, muestra un mensaje de error

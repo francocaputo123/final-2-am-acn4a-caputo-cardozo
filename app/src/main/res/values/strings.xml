@@ -31,4 +31,5 @@
     <string name="p_password">Cambia tu contraseña.</string>
     <string name="p_courses">Tus cursos</string>
     <string name="disponible">Aun no te has inscripto a ningun curso.</string>
+    <string name="p_change">"Cambiar "</string>
 </resources>
