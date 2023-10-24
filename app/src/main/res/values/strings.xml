@@ -33,21 +33,34 @@
     <string name="disponible">Aun no te has inscripto a ningun curso.</string>
     <string name="p_change">"Cambiar "</string>
     <string name="javaDescripcion">Master Completo de Java de 0 a experto(+127 hrs)</string>
-    <string name="introduccion">Seccion1: Introduccion</string>
-    <string name="Variables">Seccion2: Variables</string>
-    <string name="operadores">Seccion3: Operadores</string>
-    <string name="flujos">Seccion4: Flujos de Control</string>
-    <string name="system">Seccion5: La clase System</string>
-    <string name="math">Seccion6: La clase Math</string>
-    <string name="array">Seccion7: Arreglos</string>
-    <string name="Bidimensionales">Seccion8: Arreglos Bidimensionales</string>
-    <string name="poo">Seccion9: Programacion Orientada a Objetos</string>
-    <string name="Sobrecarga">Seccion10: Sobrecarga de metodos</string>
-    <string name="herencia">Seccion11: herencia</string>
-    <string name="interfaces">Seccion12: Interfaces</string>
-    <string name="exepciones">Seccion13: Manejo de Exepciones</string>
+    <string name="introduccion">Seccion 1: Introduccion</string>
+    <string name="Variables">Seccion 2: Variables</string>
+    <string name="operadores">Seccion 3: Operadores</string>
+    <string name="flujos">Seccion 4: Flujos de Control</string>
+    <string name="system">Seccion 5: La clase System</string>
+    <string name="math">Seccion 6: La clase Math</string>
+    <string name="array">Seccion 7: Arreglos</string>
+    <string name="Bidimensionales">Seccion 8: Arreglos Bidimensionales</string>
+    <string name="poo">Seccion 9: Programacion Orientada a Objetos</string>
+    <string name="Sobrecarga">Seccion 10: Sobrecarga de metodos</string>
+    <string name="herencia">Seccion 11: herencia</string>
+    <string name="interfaces">Seccion 12: Interfaces</string>
+    <string name="exepciones">Seccion 13: Manejo de Exepciones</string>
     <string name="finalJava">Las principales empresas eligen LearnYourSelf para desarrollar sus habilidades demandadas</string>
     <string name="empezar">Empezar</string>
+    <string name="javascriptDescripcion">Master Completo de Javascript de 0 a experto(+150 hrs)</string>
+    <string name="variablesjavascript">Seccion 2: Variables en JavaScript</string>
+    <string name="sctJavascript">Seccion 3: String o Cadenas de Texto</string>
+    <string name="numerosScript">Seccion 4: Numeros en JavaScript</string>
+    <string name="operadoresJavascript">Seccion 5: Operadores en JavaScript</string>
+    <string name="objetosJavacript">Seccion 6: Objetos en JavaScript</string>
+    <string name="booleanJavascript">Seccion 7: Booleans en JavaScript</string>
+    <string name="arraysJavascript">Seccion 8: Arrays o Arreglos en JavaScript</string>
+    <string name="funcionesJavascript">Seccion 9: Funciones en JavaScript</string>
+    <string name="estructurasJavascript">Seccion 10: Estructuras de Control</string>
+
+
+
 
 
 </resources>

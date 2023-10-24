@@ -13,8 +13,5 @@ public class LearnRoute extends AppCompatActivity {
         setContentView(R.layout.activity_learn_route);
    }
 
-    public void volver(View v)
-    {
-        finish();
-    }
+    public void volver(View v){finish();}
 }

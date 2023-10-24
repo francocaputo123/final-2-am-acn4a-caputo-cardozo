@@ -33,13 +33,14 @@ public class Course extends AppCompatActivity {
 
             switch (buttonTag) {
                 case "js":
-                    startActivity(in);
+                    Intent intent = new Intent(this, Javascript.class);
+                    startActivity(intent);
                     break;
 
                 case "java":
                     startActivity(in);
-                    Intent intent = new Intent(this, LearnRoute.class);
-                    startActivity(intent);
+                    Intent intent2 = new Intent(this, LearnRoute.class);
+                    startActivity(intent2);
                     break;
 
                 case "mysql":
