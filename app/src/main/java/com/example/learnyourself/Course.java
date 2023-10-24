@@ -38,6 +38,8 @@ public class Course extends AppCompatActivity {
 
                 case "java":
                     startActivity(in);
+                    Intent intent = new Intent(this, LearnRoute.class);
+                    startActivity(intent);
                     break;
 
                 case "mysql":
