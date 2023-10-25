@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LearnYourself"
         tools:targetApi="31">
         <activity
+            android:name=".Php"
+            android:exported="false" />
+        <activity
             android:name=".Javascript"
             android:exported="false" />
         <activity
