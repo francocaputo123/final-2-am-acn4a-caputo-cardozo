@@ -71,6 +71,14 @@
     <string name="phpsistemas">Seccion 11: Sistema de archivos</string>
     <string name="phpsubidas">Seccion 12: Subidas de archivos</string>
     <string name="phpejercicios">Seccion 13: Ejercicios de desarrollo Web con PHP</string>
+    <string name="VariablesPhyton">Seccion 2: Variables de Phyton</string>
+    <string name="DatosPhyton">Seccion 3: Tipos de Datos Phyton</string>
+    <string name="OperadoresPhyton">Seccion 4: Operadores Phyton</string>
+    <string name="SentenciasPhyton">Seccion 5: Sentencias Phyton</string>
+    <string name="CiclosPhyton">Seccion 6: Ciclos de Phyton</string>
+    <string name="ColeccionesPhyton">Seccion 7: Colecciones en Phyton</string>
+    <string name="FuncionesPhyton">Seccion 8: Funciones en Phyton</string>
+    <string name="CyObjetosPhyton">Seccion 9: Clases y Objetos Phyton</string>
 
 
 </resources>
