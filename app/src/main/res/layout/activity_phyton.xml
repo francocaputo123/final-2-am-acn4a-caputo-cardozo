@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Javascript">
+    tools:context=".Phyton">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,25 +46,25 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/javascript" />
-
             <TextView
                 android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Javascript"
+                android:text="@string/Phyton"
                 android:textAlignment="center"
                 android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/piton" />
 
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/javascriptDescripcion"
+                android:text="@string/phpDescripcion"
                 android:textSize="24sp" />
 
             <ScrollView
@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/variablesjavascript"
+                        android:text="@string/VariablesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -97,7 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/sctJavascript"
+                        android:text="@string/DatosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -105,7 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/numerosScript"
+                        android:text="@string/OperadoresPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -113,7 +113,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/operadoresJavascript"
+                        android:text="@string/SentenciasPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -121,7 +121,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/booleanJavascript"
+                        android:text="@string/CiclosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -129,7 +129,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/objetosJavacript"
+                        android:text="@string/ColeccionesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -137,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/arraysJavascript"
+                        android:text="@string/FuncionesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -145,7 +145,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/funcionesJavascript"
+                        android:text="@string/CyObjetosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -153,7 +153,31 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/estructurasJavascript"
+                        android:text="@string/EncapsulamientoPhyton"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/HernciaPhyton"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/CAbstractasPhyton"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/SobrecargaPhyton"
                         android:textSize="20sp" />
 
                 </LinearLayout>
@@ -177,12 +201,6 @@
                 android:onClick="volver"
                 android:text="@string/buttonBack"
                 android:textColor="@color/txtColor" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="58dp"
-                android:text="Button" />
 
         </LinearLayout>
 
