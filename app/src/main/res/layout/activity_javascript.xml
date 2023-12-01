@@ -178,6 +178,12 @@
                 android:text="@string/buttonBack"
                 android:textColor="@color/txtColor" />
 
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Button" />
+
         </LinearLayout>
 
     </LinearLayout>
