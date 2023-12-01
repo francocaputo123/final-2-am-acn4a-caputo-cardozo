@@ -16,6 +16,9 @@
         android:theme="@style/Theme.LearnYourself"
         tools:targetApi="31">
         <activity
+            android:name=".Phyton"
+            android:exported="false" />
+        <activity
             android:name=".Java"
             android:exported="false" />
         <activity
