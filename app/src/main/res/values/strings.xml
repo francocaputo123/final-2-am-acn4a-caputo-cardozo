@@ -79,6 +79,10 @@
     <string name="ColeccionesPhyton">Seccion 7: Colecciones en Phyton</string>
     <string name="FuncionesPhyton">Seccion 8: Funciones en Phyton</string>
     <string name="CyObjetosPhyton">Seccion 9: Clases y Objetos Phyton</string>
+    <string name="EncapsulamientoPhyton">Seccion 10: Encapsulamiento Phyton</string>
+    <string name="HernciaPhyton">Seccion 11: Herencia Phyton</string>
+    <string name="CAbstractasPhyton">Seccion 12: Clases Abstractas Phyton</string>
+    <string name="SobrecargaPhyton">Seccion 13: Sobrecarga de operadores en Phyton</string>
 
 
 </resources>

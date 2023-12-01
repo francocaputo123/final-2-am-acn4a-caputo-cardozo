@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpvariables"
+                        android:text="@string/VariablesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -97,7 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpoperadores"
+                        android:text="@string/DatosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -105,7 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpeccondicionales"
+                        android:text="@string/OperadoresPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -113,7 +113,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpfunciones"
+                        android:text="@string/SentenciasPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -121,7 +121,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpincludes"
+                        android:text="@string/CiclosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -129,7 +129,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpArrays"
+                        android:text="@string/ColeccionesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -137,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpcookies"
+                        android:text="@string/FuncionesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -145,7 +145,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpformularios"
+                        android:text="@string/CyObjetosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -153,7 +153,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpvalidaciones"
+                        android:text="@string/EncapsulamientoPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -161,7 +161,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpsistemas"
+                        android:text="@string/HernciaPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -169,7 +169,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpsubidas"
+                        android:text="@string/CAbstractasPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -177,7 +177,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/phpejercicios"
+                        android:text="@string/SobrecargaPhyton"
                         android:textSize="20sp" />
 
                 </LinearLayout>
