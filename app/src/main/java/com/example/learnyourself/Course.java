@@ -22,7 +22,7 @@ public class Course extends AppCompatActivity {
 
         title = findViewById(R.id.c_title);
 
-       name = getIntent().getStringExtra("name");
+       //name = getIntent().getStringExtra("name");
     }
 
     //metodo para la seleccion de cursos
@@ -68,8 +68,6 @@ public class Course extends AppCompatActivity {
     }
 
     public void profile(View v){
-        Intent in = new Intent(this, Profile.class);
-        in.putExtra("name", name);
-        startActivity(in);
+
     }
 }

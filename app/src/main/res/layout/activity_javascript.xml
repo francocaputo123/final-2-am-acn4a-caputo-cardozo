@@ -50,7 +50,8 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                app:srcCompat="@drawable/javascript" />
+                app:srcCompat="@drawable/javascript"
+                android:layout_margin="10dp"/>
 
             <TextView
                 android:id="@+id/textView31"
@@ -65,7 +66,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/javascriptDescripcion"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:layout_margin="10dp"/>
 
             <ScrollView
                 android:layout_width="match_parent"
