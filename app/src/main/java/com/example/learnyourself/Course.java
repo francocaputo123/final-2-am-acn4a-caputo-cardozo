@@ -48,12 +48,13 @@ public class Course extends AppCompatActivity {
                     break;
 
                 case "php":
-                    Intent intent4 = new Intent(this, Javascript.class);
+                    Intent intent4 = new Intent(this, Php.class);
                     startActivity(intent4);
                     break;
 
                 case "piton":
-                    startActivity(in);
+                    Intent intent5 = new Intent(this, Phyton.class);
+                    startActivity(intent5);
                     break;
 
                 default:
