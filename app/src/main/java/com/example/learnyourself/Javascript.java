@@ -20,7 +20,8 @@ public class Javascript extends AppCompatActivity {
     }
 
     public void dowload (View v){
-        Log.i("testing", "probando click");
+        ImagenDowloader descarga = new ImagenDowloader();
+        descarga.execute("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
     }
 
     public void volver(View v)
