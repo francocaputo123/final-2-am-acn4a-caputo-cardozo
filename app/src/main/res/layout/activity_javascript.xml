@@ -159,32 +159,41 @@
                 </LinearLayout>
             </ScrollView>
 
-            <Button
-                android:id="@+id/button4"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_marginBottom="10dp"
-                android:background="@color/btnColor"
-                android:onClick="empezar"
-                android:text="@string/empezar"
-                android:textColor="@color/txtColor" />
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:background="@color/btnColor"
-                android:onClick="volver"
-                android:text="@string/buttonBack"
-                android:textColor="@color/txtColor" />
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/btnColor"
+                    android:onClick="empezar"
+                    android:text="@string/empezar"
+                    android:textColor="@color/txtColor" />
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:onClick="dowload"
-                android:text="Descargar Imagen"
-                android:padding="5dp"/>
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/btnColor"
+                    android:onClick="volver"
+                    android:text="@string/buttonBack"
+                    android:textColor="@color/txtColor" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:onClick="dowload"
+                    android:padding="5dp"
+                    android:text="@string/cambiarImagen" />
+            </LinearLayout>
 
         </LinearLayout>
 
