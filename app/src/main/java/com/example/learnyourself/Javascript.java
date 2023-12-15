@@ -2,13 +2,9 @@ package com.example.learnyourself;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.net.ConnectivityManager;
-import android.net.Network;
-import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 
 public class Javascript extends AppCompatActivity {
 
@@ -20,8 +16,9 @@ public class Javascript extends AppCompatActivity {
     }
 
     public void dowload (View v){
-        ImagenDowloader descarga = new ImagenDowloader();
-        descarga.execute("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
+        ImageView imageview = findViewById(R.id.imageView);
+        ImageDownloader descarga = new ImageDownloader(imageview);
+        descarga.execute("https://clipground.com/images/logo-javascript-clipart-1.jpg");
     }
 
     public void volver(View v)
