@@ -16,7 +16,7 @@ public class LearnRoute extends AppCompatActivity {
 
     public void dowload (View v){
         ImageView imageview15 = findViewById(R.id.imageView15);
-        ImageDowloaderJava descarga = new ImageDowloaderJava(imageview15);
+        ImageDownloaderJava descarga = new ImageDownloaderJava(imageview15);
         descarga.execute("https://wallpapercave.com/wp/wp7250087.jpg");
     }
 

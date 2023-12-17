@@ -8,11 +8,11 @@ import android.widget.ImageView;
 import java.io.InputStream;
 import java.net.URL;
 
-public class ImageDowloaderJava extends AsyncTask<String, Integer, Bitmap> {
+public class ImageDownloaderJava extends AsyncTask<String, Integer, Bitmap> {
     private Bitmap imagenDescargada = null;
     private ImageView imageView15;
 
-    public ImageDowloaderJava(ImageView imageView){
+    public ImageDownloaderJava(ImageView imageView){
         this.imageView15 = imageView;
     }
     @Override

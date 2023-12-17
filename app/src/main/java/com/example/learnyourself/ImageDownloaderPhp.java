@@ -8,12 +8,12 @@ import android.widget.ImageView;
 import java.io.InputStream;
 import java.net.URL;
 
-public class ImageDownloader extends AsyncTask<String, Integer, Bitmap> {
+public class ImageDownloaderPhp extends AsyncTask<String, Integer, Bitmap> {
     private Bitmap imagenDescargada = null;
     private ImageView imageView;
 
-    public ImageDownloader(ImageView imageView){
-    this.imageView = imageView;
+    public ImageDownloaderPhp(ImageView imageView){
+        this.imageView = imageView;
     }
     @Override
     protected Bitmap doInBackground(String... strings) {
