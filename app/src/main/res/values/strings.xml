@@ -48,6 +48,19 @@
     <string name="exepciones">Seccion 13: Manejo de Exepciones</string>
     <string name="finalJava">Las principales empresas eligen LearnYourSelf para desarrollar sus habilidades demandadas</string>
     <string name="empezar">Empezar</string>
+    <string name="phpDescripcion">Master Completo en PHP de 0 a experto(+130 hrs)</string>
+    <string name="variablesPHP">Seccion 3: Variables en PHP</string>
+    <string name="phpPrimerospasos">Seccion 2: Primeros pasos en PHP</string>
+    <string name="ConstantesPHP">Seccion 4: Constantes</string>
+    <string name="operadoresPHP">Seccion 5: Operadores en PHP</string>
+    <string name="oCondicionalesPHP">Seccion 6: Condicionales en PHP</string>
+    <string name="IteradoesBuclesPHP">Seccion 7: Iteradores y Bucles PHP</string>
+    <string name="FuncionesPHP">Seccion 8: Funciones en PHP</string>
+    <string name="ArraysArreglosPHP">Seccion 9: Arrays y Arreglos en PHP</string>
+    <string name="SesionesPHP">Seccion 10: Sesiones y Cookies en PHP</string>
+    <string name="FormulariosPHP">Seccion 11: Formularios con PHP</string>
+    <string name="ValidacionesPHP">Seccion 12: Validaciones con PHP</string>
+    <string name="cambiarImagen">Cambiar Imagen</string>
     <string name="javascriptDescripcion">Master Completo de Javascript de 0 a experto(+150 hrs)</string>
     <string name="variablesjavascript">Seccion 2: Variables en JavaScript</string>
     <string name="sctJavascript">Seccion 3: String o Cadenas de Texto</string>
@@ -58,7 +71,6 @@
     <string name="arraysJavascript">Seccion 8: Arrays o Arreglos en JavaScript</string>
     <string name="funcionesJavascript">Seccion 9: Funciones en JavaScript</string>
     <string name="estructurasJavascript">Seccion 10: Estructuras de Control</string>
-    <string name="cambiarImagen">Cambiar Imagen</string>
 
 
 </resources>
