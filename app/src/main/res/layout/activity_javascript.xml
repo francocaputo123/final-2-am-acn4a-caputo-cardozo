@@ -49,8 +49,14 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
+ courses_imagesDownload
                 android:layout_height="172dp"
                 app:srcCompat="@drawable/javascript" />
+
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/javascript"
+                android:layout_margin="10dp"/>
+ main
 
             <TextView
                 android:id="@+id/textView31"
@@ -65,7 +71,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/javascriptDescripcion"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:layout_margin="10dp"/>
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -194,6 +201,12 @@
                     android:padding="5dp"
                     android:text="@string/cambiarImagen" />
             </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Button" />
 
         </LinearLayout>
 
