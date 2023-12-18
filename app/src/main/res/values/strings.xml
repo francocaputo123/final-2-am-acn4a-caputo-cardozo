@@ -58,6 +58,9 @@
     <string name="arraysJavascript">Seccion 8: Arrays o Arreglos en JavaScript</string>
     <string name="funcionesJavascript">Seccion 9: Funciones en JavaScript</string>
     <string name="estructurasJavascript">Seccion 10: Estructuras de Control</string>
+ 
+    <string name="cambiarImagen">Cambiar Imagen</string>
+
     <string name="phpDescripcion">Master Completo de PHP de 0 a experto(+130 hrs)</string>
     <string name="phpvariables">Seccion 2: Variables y tipos de datos</string>
     <string name="phpoperadores">Seccion 3: Operadores</string>
@@ -83,6 +86,7 @@
     <string name="HernciaPhyton">Seccion 11: Herencia Phyton</string>
     <string name="CAbstractasPhyton">Seccion 12: Clases Abstractas Phyton</string>
     <string name="SobrecargaPhyton">Seccion 13: Sobrecarga de operadores en Phyton</string>
+ 
 
 
 </resources>
