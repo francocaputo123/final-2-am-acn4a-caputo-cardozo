@@ -58,7 +58,35 @@
     <string name="arraysJavascript">Seccion 8: Arrays o Arreglos en JavaScript</string>
     <string name="funcionesJavascript">Seccion 9: Funciones en JavaScript</string>
     <string name="estructurasJavascript">Seccion 10: Estructuras de Control</string>
+ 
     <string name="cambiarImagen">Cambiar Imagen</string>
+
+    <string name="phpDescripcion">Master Completo de PHP de 0 a experto(+130 hrs)</string>
+    <string name="phpvariables">Seccion 2: Variables y tipos de datos</string>
+    <string name="phpoperadores">Seccion 3: Operadores</string>
+    <string name="phpeccondicionales">Seccion 4: Estructura de control</string>
+    <string name="phpfunciones">Seccion 5: Funciones </string>
+    <string name="phpincludes">Seccion 6: Includes</string>
+    <string name="phpArrays">Seccion 7: Arrays y Arreglos</string>
+    <string name="phpcookies">Seccion 8: Sesiones y Cookies</string>
+    <string name="phpformularios">Seccion 9: Formularios</string>
+    <string name="phpvalidaciones">Seccion 10: Validacion de formularios</string>
+    <string name="phpsistemas">Seccion 11: Sistema de archivos</string>
+    <string name="phpsubidas">Seccion 12: Subidas de archivos</string>
+    <string name="phpejercicios">Seccion 13: Ejercicios de desarrollo Web con PHP</string>
+    <string name="VariablesPhyton">Seccion 2: Variables de Phyton</string>
+    <string name="DatosPhyton">Seccion 3: Tipos de Datos Phyton</string>
+    <string name="OperadoresPhyton">Seccion 4: Operadores Phyton</string>
+    <string name="SentenciasPhyton">Seccion 5: Sentencias Phyton</string>
+    <string name="CiclosPhyton">Seccion 6: Ciclos de Phyton</string>
+    <string name="ColeccionesPhyton">Seccion 7: Colecciones en Phyton</string>
+    <string name="FuncionesPhyton">Seccion 8: Funciones en Phyton</string>
+    <string name="CyObjetosPhyton">Seccion 9: Clases y Objetos Phyton</string>
+    <string name="EncapsulamientoPhyton">Seccion 10: Encapsulamiento Phyton</string>
+    <string name="HernciaPhyton">Seccion 11: Herencia Phyton</string>
+    <string name="CAbstractasPhyton">Seccion 12: Clases Abstractas Phyton</string>
+    <string name="SobrecargaPhyton">Seccion 13: Sobrecarga de operadores en Phyton</string>
+ 
 
 
 </resources>
