@@ -18,9 +18,11 @@ public class Mysql extends AppCompatActivity {
     public void dowload (View v){
         ImageView imageview = findViewById(R.id.imageView);
         ImageDownloaderMySql descarga = new ImageDownloaderMySql(imageview);
-        descarga.execute("https://tse4.mm.bing.net/th?id=OIP.kV1bZdb28RGUp3f3ECnG5AHaHa&pid=Api&P=0&h=180");
+        descarga.execute("https:  //tse4.mm.bing.net/th?id=OIP.kV1bZdb28RGUp3f3ECnG5AHaHa&pid=Api&P=0&h=180");
     }
 
-    public void volvera(View v){ finish();
+    public void volver(View v)
+    {
+        finish();
     }
-}
+    }

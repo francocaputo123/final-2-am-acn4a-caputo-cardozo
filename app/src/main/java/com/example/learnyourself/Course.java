@@ -38,25 +38,21 @@ public class Course extends AppCompatActivity {
                     break;
 
                 case "java":
-                    startActivity(in);
                     Intent intent2 = new Intent(this, LearnRoute.class);
                     startActivity(intent2);
                     break;
 
                 case "mysql":
-                    startActivity(in);
                     Intent intent3 = new Intent(this, Mysql.class);
                     startActivity(intent3);
                     break;
 
                 case "php":
-                    startActivity(in);
                     Intent intent4 = new Intent(this, Php.class);
                     startActivity(intent4);
                     break;
 
                 case "piton":
-                    startActivity(in);
                     Intent intent5 = new Intent(this, Phyton.class);
                     startActivity(intent5);
                     break;
