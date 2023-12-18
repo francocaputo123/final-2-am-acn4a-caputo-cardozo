@@ -21,8 +21,6 @@ public class Mysql extends AppCompatActivity {
         descarga.execute("https://tse4.mm.bing.net/th?id=OIP.kV1bZdb28RGUp3f3ECnG5AHaHa&pid=Api&P=0&h=180");
     }
 
-    public void volver(View v)
-    {
-        finish();
+    public void volvera(View v){ finish();
     }
 }
