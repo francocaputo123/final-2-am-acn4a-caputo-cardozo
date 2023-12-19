@@ -216,7 +216,7 @@
                     android:padding="10dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/piton"
-                    android:tag="piton"/>
+                    android:tag="piton" />
 
                 <TextView
                     android:id="@+id/pitonTxt"
