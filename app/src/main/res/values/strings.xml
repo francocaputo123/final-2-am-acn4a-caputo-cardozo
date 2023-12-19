@@ -61,6 +61,18 @@
     <string name="FormulariosPHP">Seccion 11: Formularios con PHP</string>
     <string name="ValidacionesPHP">Seccion 12: Validaciones con PHP</string>
     <string name="cambiarImagen">Cambiar Imagen</string>
+    <string name="sqlDescripcion">Master Completo de MySql de 0 a experto(+180 hrs)</string>
+    <string name="variablesSql">Seccion 2: Obteniendo datos</string>
+    <string name="Insertsql">Seccion 3: Insert,Update y Delete</string>
+    <string name="AgrupacionesSql">Seccion 4: Agrupaciones</string>
+    <string name="JoinsSql">Seccion 5: Joins</string>
+    <string name="funcionesSql">Seccion 6: Funciones</string>
+    <string name="VistasSql">Seccion 7: Vistas</string>
+    <string name="ProcedimientosSql">Seccion 8: Procedimientos</string>
+    <string name="TriggersSql">Seccion 9: Triggers</string>
+    <string name="TransaccionesSql">Seccion 10: Transacciones y Concurrencias</string>
+    <string name="IndicesSql">Seccion 11: Indices</string>
+    <string name="SeguridadSql">Seccion 12: Seguridad en base de datos</string>
     <string name="javascriptDescripcion">Master Completo de Javascript de 0 a experto(+150 hrs)</string>
     <string name="variablesjavascript">Seccion 2: Variables en JavaScript</string>
     <string name="sctJavascript">Seccion 3: String o Cadenas de Texto</string>
@@ -71,6 +83,7 @@
     <string name="arraysJavascript">Seccion 8: Arrays o Arreglos en JavaScript</string>
     <string name="funcionesJavascript">Seccion 9: Funciones en JavaScript</string>
     <string name="estructurasJavascript">Seccion 10: Estructuras de Control</string>
+
 
 
 </resources>
