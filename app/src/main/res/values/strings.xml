@@ -83,6 +83,18 @@
     <string name="arraysJavascript">Seccion 8: Arrays o Arreglos en JavaScript</string>
     <string name="funcionesJavascript">Seccion 9: Funciones en JavaScript</string>
     <string name="estructurasJavascript">Seccion 10: Estructuras de Control</string>
+    <string name="PhytonDescripcion">Master Completo de Phyton de 0 a experto(+170 hrs)</string>
+    <string name="variablesPhyton">Seccion 2: Variables en Phyton</string>
+    <string name="datosPhyton">Seccion 3: Tipos de datos en Phyton</string>
+    <string name="OperadoresPhyton">Seccion 4: Operadores en Phyton</string>
+    <string name="CiclosPhyton">Seccion 5: Ciclos en Phyton</string>
+    <string name="ColeccionesPhyton">Seccion 6: Colecciones en Phyton</string>
+    <string name="phytonFunciones">Seccion 7: Funciones en Phyton</string>
+    <string name="EncapsulamientoPhyton">Seccion 8: Encapsulamiento</string>
+    <string name="HerenciaPhyton">Seccion 9: Herencia</string>
+    <string name="AbstractasPhyton">Seccion 10: Clases Abstractas</string>
+    <string name="PolimorfismoPhyton">Seccion 11: Polimorfismo</string>
+    <string name="ExcepcionesPhyton">Seccion 12: Manejo de Excepciones</string>
 
 
 

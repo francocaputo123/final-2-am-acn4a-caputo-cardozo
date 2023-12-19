@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".Mysql">
+    android:layout_height="match_parent"
+    tools:context=".Php">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,9 +47,9 @@
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="172dp"
+                android:layout_height="181dp"
                 app:srcCompat="@drawable/mysql" />
 
             <TextView
@@ -62,21 +62,6 @@
 
             <TextView
                 android:id="@+id/textView32"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/MySQL"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/textView63"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/sqlDescripcion"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sqlDescripcion"
@@ -92,8 +77,8 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="match_parent"
+                        android:id="@+id/textView63"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/introduccion"
@@ -172,7 +157,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -180,7 +165,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -217,7 +202,7 @@
                     android:textColor="@color/txtColor" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
