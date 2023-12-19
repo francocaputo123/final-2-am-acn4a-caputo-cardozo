@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+ courses_imagesDownload
 import android.widget.ImageView;
+
+ main
 
 public class Phyton extends AppCompatActivity {
 
@@ -14,6 +17,7 @@ public class Phyton extends AppCompatActivity {
         setContentView(R.layout.activity_phyton);
     }
 
+ courses_imagesDownload
 
     public void dowload (View v){
         ImageView imageview = findViewById(R.id.imageView);
@@ -25,4 +29,7 @@ public class Phyton extends AppCompatActivity {
     {
         finish();
     }
+
+    public void volver(View v){finish();}
+ main
 }
