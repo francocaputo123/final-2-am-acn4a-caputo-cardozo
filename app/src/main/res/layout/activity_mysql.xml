@@ -64,7 +64,7 @@
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/javascriptDescripcion"
+                android:text="@string/MySQL"
                 android:textSize="24sp" />
 
             <ScrollView
@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/variablesjavascript"
+                        android:text="@string/variablesSql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -97,7 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/sctJavascript"
+                        android:text="@string/Insertsql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -105,7 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/numerosScript"
+                        android:text="@string/AgrupacionesSql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -113,7 +113,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/operadoresJavascript"
+                        android:text="@string/JoinsSql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -121,7 +121,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/booleanJavascript"
+                        android:text="@string/funcionesSql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -129,7 +129,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/objetosJavacript"
+                        android:text="@string/VistasSql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -137,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/arraysJavascript"
+                        android:text="@string/ProcedimientosSql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -145,7 +145,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/funcionesJavascript"
+                        android:text="@string/TriggersSql"
                         android:textSize="20sp" />
 
                     <TextView
@@ -153,7 +153,23 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/estructurasJavascript"
+                        android:text="@string/TransaccionesSql"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/IndicesSql"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/SeguridadSql"
                         android:textSize="20sp" />
 
                 </LinearLayout>
