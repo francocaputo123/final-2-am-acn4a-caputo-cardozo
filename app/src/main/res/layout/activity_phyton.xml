@@ -64,7 +64,7 @@
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/javascriptDescripcion"
+                android:text="@string/PhytonDescripcion"
                 android:textSize="24sp" />
 
             <ScrollView
@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/variablesjavascript"
+                        android:text="@string/variablesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -97,7 +97,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/sctJavascript"
+                        android:text="@string/datosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -105,7 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/numerosScript"
+                        android:text="@string/OperadoresPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -113,7 +113,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/operadoresJavascript"
+                        android:text="@string/CiclosPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -121,7 +121,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/booleanJavascript"
+                        android:text="@string/ColeccionesPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -129,7 +129,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/objetosJavacript"
+                        android:text="@string/phytonFunciones"
                         android:textSize="20sp" />
 
                     <TextView
@@ -137,7 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/arraysJavascript"
+                        android:text="@string/EncapsulamientoPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -145,7 +145,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/funcionesJavascript"
+                        android:text="@string/HerenciaPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -153,7 +153,23 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/estructurasJavascript"
+                        android:text="@string/AbstractasPhyton"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/PolimorfismoPhyton"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/ExcepcionesPhyton"
                         android:textSize="20sp" />
 
                 </LinearLayout>
@@ -186,7 +202,7 @@
                     android:textColor="@color/txtColor" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"

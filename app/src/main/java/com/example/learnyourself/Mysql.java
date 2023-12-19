@@ -14,13 +14,11 @@ public class Mysql extends AppCompatActivity {
         setContentView(R.layout.activity_mysql);
     }
 
-
     public void dowload (View v){
         ImageView imageview = findViewById(R.id.imageView);
         ImageDownloaderMySql descarga = new ImageDownloaderMySql(imageview);
-        descarga.execute("https://tse4.mm.bing.net/th?id=OIP.kV1bZdb28RGUp3f3ECnG5AHaHa&pid=Api&P=0&h=180");
+        descarga.execute("https://tse3.mm.bing.net/th?id=OIP.UcLFUL0G-g3-2VWnMqxHyQHaC3&pid=Api&P=0&h=180");
     }
-
 
     public void volver(View v)
     {
