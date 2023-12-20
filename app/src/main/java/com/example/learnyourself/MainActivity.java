@@ -1,27 +1,90 @@
 package com.example.learnyourself;
 
+import static android.content.ContentValues.TAG;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
+
 
 public class MainActivity extends AppCompatActivity {
     private EditText userText, userPassword;
-    private String[] content;
+    private FirebaseAuth mAuth;
+    private FirebaseFirestore db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        mAuth = FirebaseAuth.getInstance();
+        db = FirebaseFirestore.getInstance();
+
         setContentView(R.layout.activity_main);
         userText = findViewById(R.id.userEdit);
         userPassword = findViewById(R.id.passEdit);
+
+    }
+
+
+
+    public void login(View v){
+        String email = userText.getText().toString().trim();
+        String password = userPassword.getText().toString().trim();
+
+        if(!email.isEmpty() && !password.isEmpty()){
+            loginWithFirebase(email, password);
+        } else {
+            Toast.makeText(this, "Ingrese su usario y/o contraseña",Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void loginWithFirebase(String email, String password){
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            obtainUser(email);
+                        } else {
+                            Toast.makeText(getApplicationContext(), "Autentificacion fallida.",  Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+    }
+
+    public void obtainUser(String email){
+        db.collection("users")
+                .whereEqualTo("email", email)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if(task.isSuccessful() && task.getResult() != null){
+                            goCourse();
+                        } else {
+                            Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+    }
+
+    public void goCourse(){
+        Intent i = new Intent(MainActivity.this, Course.class);
+        startActivity(i);
+        finish();
     }
 
     //Método para el botón de registro: cambia de activity a la pagina registro.
@@ -37,45 +100,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    //metodo para loguearse
-    public void login(View v){
-        String userN = userText.getText().toString();
-        try{
-            //se crea un inputStreamReader para leer el archivo y el bufferReader para leer linea por linea
-            InputStreamReader file = new InputStreamReader(openFileInput(userN));
-            BufferedReader br = new BufferedReader(file);
-            //inicializo el array
-            content = new String[4];
-            String line = br.readLine();
-            int i = 0;
-            //guardo todos los strings provenientes del archivo dentro del array
-            while(line != null && i < 4 ){
-                //guargo en el array y salto la linea
-                content[i] = line;
-                i++;
-                line = br.readLine();
-            }
-            //cierro el archivo y el lector buffer
-            br.close();
-            file.close();
-
-            String edit1 = content[2];
-            String edit2 = content[3];
-
-            if (userText.getText().toString().equals(edit1) && userPassword.getText().toString().equals(edit2)) {
-                // Acceso permitido, inicia la actividad
-                Intent in = new Intent(this, Course.class);
-                in.putExtra("name", content[2]);
-                startActivity(in);
-            } else {
-                // Usuario o contraseña incorrectos, muestra un mensaje de error
-                Toast.makeText(this, "Usuario o contraseña incorrectos", Toast.LENGTH_SHORT).show();
-            }
-
-        } catch (IOException e){
-            Toast.makeText(this, "No existe el usuario", Toast.LENGTH_SHORT).show();
-        }
-
-
-    }
 }
