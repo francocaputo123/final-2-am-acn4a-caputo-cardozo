@@ -48,6 +48,31 @@
     <string name="exepciones">Seccion 13: Manejo de Exepciones</string>
     <string name="finalJava">Las principales empresas eligen LearnYourSelf para desarrollar sus habilidades demandadas</string>
     <string name="empezar">Empezar</string>
+    <string name="phpDescripcion">Master Completo en PHP de 0 a experto(+130 hrs)</string>
+    <string name="variablesPHP">Seccion 3: Variables en PHP</string>
+    <string name="phpPrimerospasos">Seccion 2: Primeros pasos en PHP</string>
+    <string name="ConstantesPHP">Seccion 4: Constantes</string>
+    <string name="operadoresPHP">Seccion 5: Operadores en PHP</string>
+    <string name="oCondicionalesPHP">Seccion 6: Condicionales en PHP</string>
+    <string name="IteradoesBuclesPHP">Seccion 7: Iteradores y Bucles PHP</string>
+    <string name="FuncionesPHP">Seccion 8: Funciones en PHP</string>
+    <string name="ArraysArreglosPHP">Seccion 9: Arrays y Arreglos en PHP</string>
+    <string name="SesionesPHP">Seccion 10: Sesiones y Cookies en PHP</string>
+    <string name="FormulariosPHP">Seccion 11: Formularios con PHP</string>
+    <string name="ValidacionesPHP">Seccion 12: Validaciones con PHP</string>
+    <string name="cambiarImagen">Cambiar Imagen</string>
+    <string name="sqlDescripcion">Master Completo de MySql de 0 a experto(+180 hrs)</string>
+    <string name="variablesSql">Seccion 2: Obteniendo datos</string>
+    <string name="Insertsql">Seccion 3: Insert,Update y Delete</string>
+    <string name="AgrupacionesSql">Seccion 4: Agrupaciones</string>
+    <string name="JoinsSql">Seccion 5: Joins</string>
+    <string name="funcionesSql">Seccion 6: Funciones</string>
+    <string name="VistasSql">Seccion 7: Vistas</string>
+    <string name="ProcedimientosSql">Seccion 8: Procedimientos</string>
+    <string name="TriggersSql">Seccion 9: Triggers</string>
+    <string name="TransaccionesSql">Seccion 10: Transacciones y Concurrencias</string>
+    <string name="IndicesSql">Seccion 11: Indices</string>
+    <string name="SeguridadSql">Seccion 12: Seguridad en base de datos</string>
     <string name="javascriptDescripcion">Master Completo de Javascript de 0 a experto(+150 hrs)</string>
     <string name="variablesjavascript">Seccion 2: Variables en JavaScript</string>
     <string name="sctJavascript">Seccion 3: String o Cadenas de Texto</string>
@@ -58,9 +83,20 @@
     <string name="arraysJavascript">Seccion 8: Arrays o Arreglos en JavaScript</string>
     <string name="funcionesJavascript">Seccion 9: Funciones en JavaScript</string>
     <string name="estructurasJavascript">Seccion 10: Estructuras de Control</string>
-
-
-
+    <string name="PhytonDescripcion">Master Completo de Phyton de 0 a experto(+170 hrs)</string>
+    <string name="variablesPhyton">Seccion 2: Variables en Phyton</string>
+    <string name="datosPhyton">Seccion 3: Tipos de datos en Phyton</string>
+    <string name="OperadoresPhyton">Seccion 4: Operadores en Phyton</string>
+    <string name="CiclosPhyton">Seccion 5: Ciclos en Phyton</string>
+    <string name="ColeccionesPhyton">Seccion 6: Colecciones en Phyton</string>
+    <string name="phytonFunciones">Seccion 7: Funciones en Phyton</string>
+    <string name="EncapsulamientoPhyton">Seccion 8: Encapsulamiento</string>
+    <string name="HerenciaPhyton">Seccion 9: Herencia</string>
+    <string name="AbstractasPhyton">Seccion 10: Clases Abstractas</string>
+    <string name="PolimorfismoPhyton">Seccion 11: Polimorfismo</string>
+    <string name="ExcepcionesPhyton">Seccion 12: Manejo de Excepciones</string>
+    <string name="..">final</string>
+    <string name="...">final</string>
 
 
 </resources>
