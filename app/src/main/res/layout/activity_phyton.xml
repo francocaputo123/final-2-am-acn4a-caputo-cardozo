@@ -76,15 +76,7 @@
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:text="@string/PhytonDescripcion"
-
- 
-                android:text="@string/javascriptDescripcion"
-
-                android:text="@string/phpDescripcion"
- 
-
                 android:textSize="24sp" />
 
             <ScrollView
@@ -108,15 +100,7 @@
                         android:id="@+id/textView64"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
                         android:text="@string/variablesPhyton"
-
- 
-                        android:text="@string/variablesjavascript"
-
-                        android:text="@string/VariablesPhyton"
- 
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -124,14 +108,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
                         android:text="@string/datosPhyton"
-
- 
-                        android:text="@string/sctJavascript"
-
-                        android:text="@string/DatosPhyton"
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -139,15 +116,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
                         android:text="@string/OperadoresPhyton"
-
- 
-                        android:text="@string/numerosScript"
-
-                        android:text="@string/OperadoresPhyton"
- 
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -155,15 +124,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
                         android:text="@string/CiclosPhyton"
-
- 
-                        android:text="@string/operadoresJavascript"
-
-                        android:text="@string/SentenciasPhyton"
- 
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -171,14 +132,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
                         android:text="@string/ColeccionesPhyton"
-
- 
-                        android:text="@string/booleanJavascript"
-
-                        android:text="@string/CiclosPhyton"
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -186,15 +140,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
                         android:text="@string/phytonFunciones"
-
- 
-                        android:text="@string/objetosJavacript"
-
-                        android:text="@string/ColeccionesPhyton"
- 
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -202,15 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
                         android:text="@string/EncapsulamientoPhyton"
-
- 
-                        android:text="@string/arraysJavascript"
-
-                        android:text="@string/FuncionesPhyton"
- 
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -218,15 +156,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
                         android:text="@string/HerenciaPhyton"
-
-
-                        android:text="@string/funcionesJavascript"
-
-                        android:text="@string/CyObjetosPhyton"
- 
-
                         android:textSize="20sp" />
 
                     <TextView
@@ -252,11 +182,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/ExcepcionesPhyton"
-
- 
-                        android:text="@string/estructurasJavascript"
-
-                        android:text="@string/EncapsulamientoPhyton"
                         android:textSize="20sp" />
 
                     <TextView
@@ -295,7 +220,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/buttonst"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_marginBottom="10dp"
@@ -326,7 +251,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/buttons"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"

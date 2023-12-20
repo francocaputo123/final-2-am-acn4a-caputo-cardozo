@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
- courses_imagesDownload
+
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
- main
+
 
     <application
         android:allowBackup="true"
@@ -22,11 +22,7 @@
             android:name=".Phyton"
             android:exported="false" />
         <activity
- courses_imagesDownload
             android:name=".Mysql"
-
-            android:name=".Java"
- main
             android:exported="false" />
         <activity
             android:name=".Php"
@@ -45,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".Recovery"
-            android:exported="false" />
-        <activity
-            android:name=".Menu"
             android:exported="false" />
         <activity
             android:name=".Register"

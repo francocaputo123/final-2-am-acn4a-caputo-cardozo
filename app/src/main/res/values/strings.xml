@@ -95,15 +95,6 @@
     <string name="AbstractasPhyton">Seccion 10: Clases Abstractas</string>
     <string name="PolimorfismoPhyton">Seccion 11: Polimorfismo</string>
     <string name="ExcepcionesPhyton">Seccion 12: Manejo de Excepciones</string>
-
-
-
-
- 
-    <string name="cambiarImagen">Cambiar Imagen</string>
-
-
-    <string name="phpDescripcion">Master Completo de PHP de 0 a experto(+130 hrs)</string>
     <string name="phpvariables">Seccion 2: Variables y tipos de datos</string>
     <string name="phpoperadores">Seccion 3: Operadores</string>
     <string name="phpeccondicionales">Seccion 4: Estructura de control</string>
@@ -118,13 +109,9 @@
     <string name="phpejercicios">Seccion 13: Ejercicios de desarrollo Web con PHP</string>
     <string name="VariablesPhyton">Seccion 2: Variables de Phyton</string>
     <string name="DatosPhyton">Seccion 3: Tipos de Datos Phyton</string>
-    <string name="OperadoresPhyton">Seccion 4: Operadores Phyton</string>
     <string name="SentenciasPhyton">Seccion 5: Sentencias Phyton</string>
-    <string name="CiclosPhyton">Seccion 6: Ciclos de Phyton</string>
-    <string name="ColeccionesPhyton">Seccion 7: Colecciones en Phyton</string>
     <string name="FuncionesPhyton">Seccion 8: Funciones en Phyton</string>
     <string name="CyObjetosPhyton">Seccion 9: Clases y Objetos Phyton</string>
-    <string name="EncapsulamientoPhyton">Seccion 10: Encapsulamiento Phyton</string>
     <string name="HernciaPhyton">Seccion 11: Herencia Phyton</string>
     <string name="CAbstractasPhyton">Seccion 12: Clases Abstractas Phyton</string>
     <string name="SobrecargaPhyton">Seccion 13: Sobrecarga de operadores en Phyton</string>

@@ -49,14 +49,8 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
- courses_imagesDownload
                 android:layout_height="172dp"
                 app:srcCompat="@drawable/javascript" />
-
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/javascript"
-                android:layout_margin="10dp"/>
- main
 
             <TextView
                 android:id="@+id/textView31"
@@ -172,7 +166,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/buttonst"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"

@@ -7,11 +7,11 @@ import android.net.Network;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
-courses_imagesDownload
+
 import android.widget.ImageView;
 
 import android.widget.LinearLayout;
- main
+
 
 public class Javascript extends AppCompatActivity {
 
@@ -20,7 +20,6 @@ public class Javascript extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_javascript);
 
- courses_imagesDownload
     }
 
     public void dowload (View v){
@@ -28,7 +27,6 @@ public class Javascript extends AppCompatActivity {
         ImageDownloaderJavascript descarga = new ImageDownloaderJavascript(imageview);
         descarga.execute("https://clipground.com/images/logo-javascript-clipart-1.jpg");
 
- main
     }
 
     public void volver(View v)
