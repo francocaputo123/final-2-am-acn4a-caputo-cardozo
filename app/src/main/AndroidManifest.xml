@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+ courses_imagesDownload
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ main
 
     <application
         android:allowBackup="true"
@@ -13,6 +18,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnYourself"
         tools:targetApi="31">
+        <activity
+            android:name=".Phyton"
+            android:exported="false" />
+        <activity
+ courses_imagesDownload
+            android:name=".Mysql"
+
+            android:name=".Java"
+ main
+            android:exported="false" />
+        <activity
+            android:name=".Php"
+            android:exported="false" />
         <activity
             android:name=".Javascript"
             android:exported="false" />

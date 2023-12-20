@@ -22,7 +22,7 @@ public class Course extends AppCompatActivity {
 
         title = findViewById(R.id.c_title);
 
-       name = getIntent().getStringExtra("name");
+       //name = getIntent().getStringExtra("name");
     }
 
     //metodo para la seleccion de cursos
@@ -38,21 +38,23 @@ public class Course extends AppCompatActivity {
                     break;
 
                 case "java":
-                    startActivity(in);
                     Intent intent2 = new Intent(this, LearnRoute.class);
                     startActivity(intent2);
                     break;
 
                 case "mysql":
-                    startActivity(in);
+                    Intent intent3 = new Intent(this, Mysql.class);
+                    startActivity(intent3);
                     break;
 
                 case "php":
-                    startActivity(in);
+                    Intent intent4 = new Intent(this, Php.class);
+                    startActivity(intent4);
                     break;
 
                 case "piton":
-                    startActivity(in);
+                    Intent intent5 = new Intent(this, Phyton.class);
+                    startActivity(intent5);
                     break;
 
                 default:
@@ -67,8 +69,6 @@ public class Course extends AppCompatActivity {
     }
 
     public void profile(View v){
-        Intent in = new Intent(this, Profile.class);
-        in.putExtra("name", name);
-        startActivity(in);
+
     }
 }
